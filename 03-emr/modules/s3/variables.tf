@@ -1,0 +1,2 @@
+variable "customer" {}
+variable "region" {}

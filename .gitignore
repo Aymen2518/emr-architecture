@@ -1,0 +1,16 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+/emr-pipeline/generated
+/emr-pipeline/*.tfstate
+/emr-pipeline/*.tfstate.*
+
+/bastion-pipeline/generated
+/bastion-pipeline/*.tfstate
+/bastion-pipeline/*.tfstate.*
+/bastion-pipeline/ssh.cfg
+/vars/all.tfvars
