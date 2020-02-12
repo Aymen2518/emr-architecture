@@ -5,7 +5,7 @@ terraform {
     dynamodb_table       = "emr-demo"
     key                  = "01-bastion"
     encrypt              = true
-    kms_key_id           = "arn:aws:kms:eu-west-1:878335512140:key/cc54ce95-93d5-4af2-a3be-aba04486122f"
+    kms_key_id           = ""
     region               = "eu-west-1"
     profile              = "wescale"
     workspace_key_prefix = ""
